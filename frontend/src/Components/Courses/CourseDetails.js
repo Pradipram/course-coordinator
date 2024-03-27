@@ -14,12 +14,12 @@ export default function CourseDetails() {
         top: '50%',
         left: '50%',
         transform: 'translate(-50%, -50%)',
-        width: 500,
+        width: 450,
         height:'75%',
         bgcolor: 'background.paper',
         border: '2px solid #000',
         boxShadow: 24,
-        p: 4,
+        p: 3,
       };
 
     const styleCourse={
@@ -32,7 +32,7 @@ export default function CourseDetails() {
 
     <Box sx={style} style={{overflowY:'auto'}}>
           <Typography gutterBottom variant="h5" component="div" sx={styleCourse}>
-            Digital Image Processing
+            Digital Image Processing 
           </Typography>
           <Typography variant="body2" color="text.secondary">
             CSC202
@@ -54,18 +54,13 @@ export default function CourseDetails() {
                     name="radio-buttons-group"
                 >
                     <FormControlLabel value="d" control={<Radio />} label="Soumen Bag" />
-                    <FormControlLabel value="c" control={<Radio />} label="Soumen Bag" />
-                    <FormControlLabel value="b" control={<Radio />} label="Soumen Bag" />
-                    <FormControlLabel value="a" control={<Radio />} label="Soumen Bag" />
-                    
-                                        
-                    
-        
-                    
+                    <FormControlLabel value="d" control={<Radio />} label="Soumen Bag " />
+                   
+
                     
                 </RadioGroup>
                 </div>
-                <button className='btn btn-outline-primary' style={{marginTop:'20px'}}>Save
+                <button className='btn btn-outline-primary' style={{marginTop:'30px'}} >Save
                 </button>
             </FormControl>
 
